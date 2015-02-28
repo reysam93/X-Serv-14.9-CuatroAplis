@@ -1,10 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import webappmulti
+import webapp
 
 
-class mySumApp(webappmulti.app):
+class mySumApp(webapp.app):
 
     def __init__(self):
         self.first = None
